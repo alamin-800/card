@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    width:500px;
+    height:400px;
+    margin:30px auto;
+    
+  
+}
+a{text-decoration: none;
+color:white;}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card-image{
+    width:50%;
+}
+.card-item{
+    width:50%;
+    background-color: aliceblue;
+    text-align:;
+    padding:10px 10px 0 10px;
+    margin-bottom: 5px;
+
+}
+.card-item h1{
+    font-family: 'Gloock', serif;
+}
+.card-item h6{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.card-item p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    
+}
+.card-item button{
+    background-color:#3D8168;
+    padding:10px 35px;
+    margin-left:40px;
+
+    
+}
+span{
+    color:#3D8168;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    
+}
+span h1{display: inline-block;}
